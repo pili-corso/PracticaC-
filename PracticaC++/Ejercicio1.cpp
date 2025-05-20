@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
     float num1, num2;
-    cout << "Ingrese el primer número: ";
+    cout << "Ingrese el primer numero: ";
     cin >> num1;
-    cout << "Ingrese el segundo número: ";
+    cout << "Ingrese el segundo numero: ";
     cin >> num2;
 
     cout << "Suma: " << num1 + num2 << endl;
