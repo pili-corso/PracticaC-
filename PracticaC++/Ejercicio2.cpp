@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-
-int main() {
+/*
+* int main() {
     // a) Usando un solo operador de inserción de flujo
     cout << "1234" << endl;
 
@@ -16,3 +16,5 @@ int main() {
 
     return 0;
 }
+
+*/
