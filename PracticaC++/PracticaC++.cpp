@@ -1,0 +1,21 @@
+
+#include <iostream> 
+using namespace std;
+
+int main() {
+    float num1, num2;
+    cout << "Ingrese el primer número: ";
+    cin >> num1;
+    cout << "Ingrese el segundo número: ";
+    cin >> num2;
+
+    cout << "Suma: " << num1 + num2 << endl;
+    cout << "Resta: " << num1 - num2 << endl;
+    cout << "Producto: " << num1 * num2 << endl;
+    if (num2 != 0)
+        cout << "Cociente: " << num1 / num2 << endl;
+    else
+        cout << "No se puede dividir por cero." << endl;
+
+    return 0;
+}
